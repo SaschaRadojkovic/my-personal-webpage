@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(203, 204, 207);
+}
+.header {
+  position: relative;
+  bottom: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* box-shadow: 10px 10px 20px; */
+  background-color: bisque;
+  margin: 40px;
+  padding: 20px;
+
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* display: block; */
+  /* text-align: center ; */
+  text-align: initial;
+  /* box-shadow: 10px 10px 15px; */
+  background-color: bisque;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding-left: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+/* .picture {
+  width: 200px;
+  padding: 200px;
+} */
+.picture {
+  max-width: 600px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(87, 106, 106);
+  text-decoration: none;
+}
+
+.all {
+  background-color: rgb(87, 106, 106);
+  border-radius: 15px;
+  margin: 50px;
+  box-shadow: 20px 20px 20px;
+  border: 0.1px solid #ced4da;
+}
